@@ -169,8 +169,8 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 | Name | Type | Description |
 |:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆最佳五檔更新時間  |
-|  `bestBids` | best price object |   |
-|  `bestAsks` | best price object |   |
+|  `bestBids` | [best price object] |   |
+|  `bestAsks` | [best price object] |   |
 
 
 #### best price object
