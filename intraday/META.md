@@ -23,35 +23,35 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 ### Example of response
 ```json
 {
-    "apiVersion": "0.1.0",
-    "data": {
-        "info": {
-            "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
-            "date": "2018-07-11",
-            "mode": "twse-sem",
-            "symbolId": "2330",
-            "countryCode": "TW",
-            "timeZone": "Asia/Taipei"
-        },
-        "meta": {
-            "isIndex": false,
-            "nameZhTw": "台積電",
-            "industryZhTw": "半導體業",
-            "priceReference": 222,
-            "priceHighLimit": 244,
-            "priceLowLimit": 200,
-            "canDayBuySell": true,
-            "canDaySellBuy": true,
-            "canShortMargin": true,
-            "canShortLend": true,
-            "volumePerUnit": 1000,
-            "currency": "TWD",
-            "isTerminated": false,
-            "isSuspended": false,
-            "isWarrant": false,
-            "typeZhTw": "一般股票"
-        }
+  "apiVersion": "0.1.0",
+  "data": {
+    "info": {
+      "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
+      "date": "2018-07-11",
+      "mode": "twse-sem",
+      "symbolId": "2330",
+      "countryCode": "TW",
+      "timeZone": "Asia/Taipei"
+    },
+    "meta": {
+      "isIndex": false,
+      "nameZhTw": "台積電",
+      "industryZhTw": "半導體業",
+      "priceReference": 222,
+      "priceHighLimit": 244,
+      "priceLowLimit": 200,
+      "canDayBuySell": true,
+      "canDaySellBuy": true,
+      "canShortMargin": true,
+      "canShortLend": true,
+      "volumePerUnit": 1000,
+      "currency": "TWD",
+      "isTerminated": false,
+      "isSuspended": false,
+      "isWarrant": false,
+      "typeZhTw": "一般股票"
     }
+  }
 }
 ```
 

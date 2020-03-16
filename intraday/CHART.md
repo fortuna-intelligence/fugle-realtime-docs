@@ -23,27 +23,27 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ### Example of response
 ```json
 {
-    "apiVersion": "0.1.0",
-    "data": {
-        "info": {
-            "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
-            "date": "2018-07-11",
-            "mode": "twse-sem",
-            "symbolId": "2330",
-            "countryCode": "TW",
-            "timeZone": "Asia/Taipei"
-        },
-        "chart": {
-            "2018-07-11T05:30:00.000Z": {
-                "open": "102.12",
-                "high": "102.15",
-                "low": "102.02",
-                "close": "102.12",
-                "unit": "2493",
-                "volume": "2493000"
-            },
-        }
+  "apiVersion": "0.1.0",
+  "data": {
+    "info": {
+      "lastUpdatedAt": 2018-07-10T23:33:02.690Z,
+      "date": "2018-07-11",
+      "mode": "twse-sem",
+      "symbolId": "2330",
+      "countryCode": "TW",
+      "timeZone": "Asia/Taipei"
+    },
+    "chart": {
+      "2018-07-11T05:30:00.000Z": {
+        "open": "102.12",
+        "high": "102.15",
+        "low": "102.02",
+        "close": "102.12",
+        "unit": "2493",
+        "volume": "2493000"
+      },
     }
+  }
 }
 ```
 

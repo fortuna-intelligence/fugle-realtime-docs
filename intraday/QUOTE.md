@@ -23,74 +23,74 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ### Example of response
 ```json
 {
-    "apiVersion": "0.1.0",
-    "data": {
-        "info": {
-            "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
-            "date": "2018-07-11",
-            "mode": "twse-sem",
-            "symbolId": "2330",
-            "countryCode": "TW ",
-            "timeZone": "Asia/Taipei"
-        },
-        "quote": {
-            "isCurbing": false,
-            "isTrial": false,
-            "isOpenDelayed": false,
-            "isCloseDelayed": false,
-            "isHalting": false,
-            "isClosed": false,
-            "total": {
-                "at": 2018-07-11T05:30:00.000Z,
-                "order": -1,
-                "price": -1,
-                "unit": 19816,
-                "volume": 19816000
-            },
-            "trial": {
-                "at": 2018-07-11T05:29:58.269Z,
-                "price": 220,
-                "unit": 4304,
-                "volume": 4304000
-            },
-            "trade": {
-                "at": 2018-07-11T05:30:00.000Z,
-                "price": 220,
-                "unit": 4304,
-                "volume": 4304000,
-                "serial": 919386
-            },
-            "order": {
-                "at": "2018-07-11T05:30:00.000Z // ",
-                "bestBids": [
-                    {
-                        "price": 217.5,
-                        "unit": 734,
-                        "volume": 734000
-                    }
-                ],
-                "bestAsks": [
-                    {
-                        "price": 220,
-                        "unit": 411,
-                        "volume": 411000
-                    }
-                ]
-            },
-            "priceHigh": {
-                "price": "220 // 當日之最高價",
-                "at": "2018-07-11T04:16:46.286Z // 第一次到達當日最高價之時間"
-            },
-            "priceLow": {
-                "price": "218 // 當日之最低價",
-                "at": "2018-07-11T04:17:31.419Z // 第一次到達當日最低價之時間"
-            },
-            "priceOpen": {
-                "price": "220 // 當日之開盤價，開盤定義：當天第一筆成交時才開盤",
-                "at": "2018-07-11T01:00:01.284Z // 當日第一筆成交時間"
+  "apiVersion": "0.0.0",
+  "data": {
+    "info": {
+      "lastUpdatedAt": 2018-07-10T23:33:02.690Z,
+      "date": "2018-07-11",
+      "mode": "twse-sem",
+      "symbolId": "2330",
+      "countryCode": "TW ",
+      "timeZone": "Asia/Taipei"
+    },
+    "quote": {
+      "isCurbing": false,
+      "isTrial": false,
+      "isOpenDelayed": false,
+      "isCloseDelayed": false,
+      "isHalting": false,
+      "isClosed": false,
+      "total": {
+        "at": 2018-07-11T05:30:00.000Z,
+        "order": -1,
+        "price": -1,
+        "unit": 19816,
+        "volume": 19816000
+      },
+      "trial": {
+        "at": 2018-07-11T05:29:58.269Z,
+        "price": 220,
+        "unit": 4304,
+        "volume": 4304000
+      },
+      "trade": {
+        "at": 2018-07-11T05:30:00.000Z,
+        "price": 220,
+        "unit": 4304,
+        "volume": 4304000,
+        "serial": 919386
+      },
+      "order": {
+        "at": 2018-07-11T05:30:00.000Z,
+        "bestBids": [
+            {
+              "price": 217.5,
+              "unit": 734,
+              "volume": 734000
             }
-        }
+        ],
+        "bestAsks": [
+          {
+            "price": 220,
+            "unit": 411,
+            "volume": 411000
+          }
+        ]
+      },
+      "priceHigh": {
+        "price": 220,
+        "at": 2018-07-11T04:16:46.286Z
+      },
+      "priceLow": {
+        "price": 218,
+        "at": 2018-07-11T04:17:31.419Z
+      },
+      "priceOpen": {
+        "price": 220,
+        "at": 2018-07-11T01:00:01.284Z
+      }
     }
+  }
 }
 ```
 
