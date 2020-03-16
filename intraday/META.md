@@ -57,20 +57,20 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 
 #### schema
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `data` | data object |  - |
 
 #### data object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `info` | info object | - |
 |  `meta` | meta object | -  |
 
 
 #### info object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `lastUpdatedAt` | ISO 8601 | 本筆資料最後更新時間 |
 |  `date` | string | 本筆資料所屬日期 |
 |  `mode` | string | 交易所-交易市場 |
@@ -81,7 +81,7 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 
 #### meta object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `isIndex` | boolean |  是否為指數 |
 |  `nameZhTw` | string | 股票中文簡稱 |
 |  `industryZhTw` | string | 產業別 |

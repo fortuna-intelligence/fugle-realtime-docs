@@ -96,20 +96,20 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### schema
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `data` | data object |  - |
 
 #### data object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `info` | info object | - |
 |  `quote` | quote object | -  |
 
 
 #### info object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `lastUpdatedAt` | ISO 8601 | 本筆資料最後更新時間 |
 |  `date` | string | 本筆資料所屬日期 |
 |  `mode` | string | 交易所-交易市場 |
@@ -120,7 +120,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### quote object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `isCurbing` | boolean | 最近一次更新是否為瞬間價格穩定措施 |
 |  `isTrial` | boolean |  最近一次更新是否為試算 |
 |  `isOpenDelayed` | boolean | 當日是否曾發生延後開盤 |
@@ -138,7 +138,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### total object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆成交時間  |
 |  `order` | number |  總成交委託, 負數表示無 order |
 |  `price` | number |  總成交價, 負數表示無 price |
@@ -148,7 +148,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### trial object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆試撮時間  |
 |  `price` | number |  最新一筆試撮價格 |
 |  `unit` | number |  最新一筆試撮張數 |
@@ -157,7 +157,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### trade object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆成交時間  |
 |  `price` | number |  最新一筆成交價格 |
 |  `unit` | number |  最新一筆成交張數 |
@@ -167,7 +167,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### order object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆最佳五檔更新時間  |
 |  `bestBids` | best price object |   |
 |  `bestAsks` | best price object |   |
@@ -175,13 +175,13 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 
 #### best price object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `price` | number | 價格  |
 |  `unit` | number |  張數 |
 |  `volume` | number | 量 |
 
 #### price object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `price` | number | 價格  |
 |  `at` | ISO 8601 |  時間 |

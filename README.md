@@ -15,7 +15,7 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 
 ## Price
 |  | Demo | 富果帳戶[如何取得](https://www.fugle.tw/events/trade-landing-page/) |
-|--|--|--|
+|:--|:--|:--|
 | Request / min | 60 | 60 |
 | Websocket limit | 1 | 5 |
 | Content | only 2884(玉山金) | 上市股票 <br/> 上櫃股票 <br/> 興櫃股票 <br/> 指數 <br/> ETF <br/> 權證 <br/> ETN |
@@ -25,7 +25,7 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 
 ## Resources
 | Resource  | Available endpoints | Description |
-|--|--|--|
+|:--|:--|:--|
 |  [chart]() | `/intraday/chart` |  個股/指數 線圖時所需的各項即時資訊 |
 |  [quote]() |  `/intraday/quote` | 取得 個股/指數 逐筆交易金額、狀態、統計資訊 |
 |  [meta]() |  `/intraday/meta` | 取得 個股/指數 當日基本資訊 |
@@ -34,7 +34,7 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 
 ## Parameters
 | Parameter | Type | Required | Description |
-|--|--|--|--|
+|:--|:--|:--|:--|
 |  `symbolId` | string | yes | 個股、指數識別代碼 |
 |  `apiToken` | string | yes | personal api token |
 
@@ -44,11 +44,11 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 The following table gives an overview of how the API functions generally behave.
 
 | Request type | Description |
-|--|--|
+|:--|:--|
 | `GET` | Access one resource and return the result as JSON. |
 
 | Request values | Description |
-|--|--|
+|:--|:--|
 | `200` | Response Success |
 | `400` | General purpose error, ex: <br/>  - symbolId invalid <br/> - quota exceeded |
 | `401` | The apiToken parameter is required or apiToken is unauthorized |
@@ -69,13 +69,13 @@ The following table gives an overview of how the API functions generally behave.
 
 #### schema
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `error` | error object |  - |
 
 #### error object
 | Name | Type | Description |
-|--|--|--|
+|:--|:--|:--|
 |  `code` | integer |  error code |
 |  `message` | string | error message  |
 
@@ -83,7 +83,7 @@ The following table gives an overview of how the API functions generally behave.
 
 ## Libraries
 | language | github  |
-|---|---|
+|:---|:---|
 | Python | [fugle-realtime-py](https://github.com/fortuna-intelligence/fugle-realtime-py)  |
 | JavaScript | [fugle-api-client](https://github.com/fortuna-intelligence/fugle-api-client)  |
 
