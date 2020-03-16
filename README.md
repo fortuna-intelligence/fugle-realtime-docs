@@ -14,7 +14,7 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 
 
 ## Price
-|  | Demo | 富果帳戶(如何取得)[https://www.fugle.tw/events/trade-landing-page/] |
+|  | Demo | 富果帳戶[如何取得](https://www.fugle.tw/events/trade-landing-page/) |
 |--|--|--|
 | Request / min | 60 | 60 |
 | Websocket limit | 1 | 5 |
