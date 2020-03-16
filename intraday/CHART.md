@@ -1,4 +1,4 @@
-# META
+# CHART
 
 提供盤中個股/指數 線圖時所需的各項即時資訊
 
@@ -15,7 +15,7 @@ curl -X GET "https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiTo
 https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 ```
 
-### Example of request websocket
+### Example of websocket
 ```
 wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ```
@@ -23,7 +23,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ### Example of response
 ```json
 {
-  "apiVersion": "0.1.0",
+  "apiVersion": "0.0.0",
   "data": {
     "info": {
       "lastUpdatedAt": 2018-07-10T23:33:02.690Z,

@@ -15,7 +15,7 @@ curl -X GET "https://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiTo
 https://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ```
 
-### Example of request websocket
+### Example of websocket
 ```
 wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ```

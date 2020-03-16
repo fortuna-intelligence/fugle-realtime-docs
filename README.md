@@ -26,9 +26,9 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 ## Resources
 | Resource  | Available endpoints | Description |
 |:--|:--|:--|
-|  [chart]() | `/intraday/chart` |  個股/指數 線圖時所需的各項即時資訊 |
-|  [quote]() |  `/intraday/quote` | 取得 個股/指數 逐筆交易金額、狀態、統計資訊 |
-|  [meta]() |  `/intraday/meta` | 取得 個股/指數 當日基本資訊 |
+|  [chart](https://github.com/fortuna-intelligence/fugle-realtime-docs/blob/master/intraday/CHART.md) | `/intraday/chart` |  個股/指數 線圖時所需的各項即時資訊 |
+|  [quote](https://github.com/fortuna-intelligence/fugle-realtime-docs/blob/master/intraday/QUOTE.md) |  `/intraday/quote` | 取得 個股/指數 逐筆交易金額、狀態、統計資訊 |
+|  [meta](https://github.com/fortuna-intelligence/fugle-realtime-docs/blob/master/intraday/META.md) |  `/intraday/meta` | 取得 個股/指數 當日基本資訊 |
 
 
 
