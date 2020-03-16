@@ -26,7 +26,7 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
   "apiVersion": "0.0.0",
   "data": {
     "info": {
-      "lastUpdatedAt": 2018-07-10T23:33:02.690Z,
+      "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
       "date": "2018-07-11",
       "mode": "twse-sem",
       "symbolId": "2330",

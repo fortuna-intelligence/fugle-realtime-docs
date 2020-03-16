@@ -26,7 +26,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
   "apiVersion": "0.0.0",
   "data": {
     "info": {
-      "lastUpdatedAt": 2018-07-10T23:33:02.690Z,
+      "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
       "date": "2018-07-11",
       "mode": "twse-sem",
       "symbolId": "2330",
@@ -41,27 +41,27 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
       "isHalting": false,
       "isClosed": false,
       "total": {
-        "at": 2018-07-11T05:30:00.000Z,
+        "at": "2018-07-11T05:30:00.000Z",
         "order": -1,
         "price": -1,
         "unit": 19816,
         "volume": 19816000
       },
       "trial": {
-        "at": 2018-07-11T05:29:58.269Z,
+        "at": "2018-07-11T05:29:58.269Z",
         "price": 220,
         "unit": 4304,
         "volume": 4304000
       },
       "trade": {
-        "at": 2018-07-11T05:30:00.000Z,
+        "at": "2018-07-11T05:30:00.000Z",
         "price": 220,
         "unit": 4304,
         "volume": 4304000,
         "serial": 919386
       },
       "order": {
-        "at": 2018-07-11T05:30:00.000Z,
+        "at": "2018-07-11T05:30:00.000Z",
         "bestBids": [
             {
               "price": 217.5,
@@ -79,15 +79,15 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
       },
       "priceHigh": {
         "price": 220,
-        "at": 2018-07-11T04:16:46.286Z
+        "at": "2018-07-11T04:16:46.286Z"
       },
       "priceLow": {
         "price": 218,
-        "at": 2018-07-11T04:17:31.419Z
+        "at": "2018-07-11T04:17:31.419Z"
       },
       "priceOpen": {
         "price": 220,
-        "at": 2018-07-11T01:00:01.284Z
+        "at": "2018-07-11T01:00:01.284Z"
       }
     }
   }
