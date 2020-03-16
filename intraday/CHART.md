@@ -74,10 +74,10 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 #### chart object
 | Name | Type | Description |
 |:--|:--|:--|
-|  `dateTime` | time object | - |
+|  `dateTime` | price object | - |
 
 
-#### time object
+#### price object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `open` | string | 此分鐘的開盤價 |
