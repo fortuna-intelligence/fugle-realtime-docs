@@ -127,13 +127,13 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `isCloseDelayed` | boolean | 當日是否曾發生延後收盤 |
 |  `isHalting` | boolean | 最近一次更新是否為暫停交易 |
 |  `isClosed` | boolean | 當日是否為已收盤 |
-|  `total` | total object |   |
-|  `trial` | trial object |   |
-|  `trade` | trade object |   |
-|  `order` | order object |   |
-|  `priceHigh` | price object | 當日之最高價<br/>第一次到達當日最高價之時間 |
-|  `priceLow` | price object |  當日之最低價<br/>第一次到達當日最低價之時間 |
-|  `priceOpen` | price object |  當日之開盤價，開盤定義：當天第一筆成交時才開盤<br/>當日第一筆成交時間 |
+|  `total` | [total object](#total-object) |   |
+|  `trial` | [trial object](#trial-object) |   |
+|  `trade` | [trade object](#trade-object) |   |
+|  `order` | [order object](#order-object) |   |
+|  `priceHigh` | [price object](price-object) | 當日之最高價<br/>第一次到達當日最高價之時間 |
+|  `priceLow` | [price object](price-object) |  當日之最低價<br/>第一次到達當日最低價之時間 |
+|  `priceOpen` | [price object](price-object) |  當日之開盤價，開盤定義：當天第一筆成交時才開盤<br/>當日第一筆成交時間 |
 
 
 #### total object
@@ -169,8 +169,8 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 | Name | Type | Description |
 |:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆最佳五檔更新時間  |
-|  `bestBids` | [best price object] |   |
-|  `bestAsks` | [best price object] |   |
+|  `bestBids` | [[best price object](#best-price-object)] |   |
+|  `bestAsks` | [[best price object](#best-price-object)] |   |
 
 
 #### best price object
