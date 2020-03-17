@@ -55,17 +55,17 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 }
 ```
 
-#### schema
+### Schema
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
-|  `data` | data object |  - |
+|  `data` | [data object](#data-object) |  - |
 
 #### data object
 | Name | Type | Description |
 |:--|:--|:--|
-|  `info` | info object | - |
-|  `meta` | meta object | -  |
+|  `info` | [info object](#info-object) | - |
+|  `meta` | [meta object](#meta-object) | -  |
 
 
 #### info object

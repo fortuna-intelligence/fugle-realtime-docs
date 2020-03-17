@@ -94,7 +94,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 }
 ```
 
-#### schema
+### Schema
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |

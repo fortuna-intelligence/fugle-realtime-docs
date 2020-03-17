@@ -1,15 +1,15 @@
 # Fugle Realtime API
 
 Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團隊開發提供。  
-即時行情資料來源為臺灣證券交易所、臺灣期貨交易所及財團法人中華民國證券櫃檯買賣中心。請您詳閱相關使用[規範與聲明](https://github.com/fortuna-intelligence/fugle-realtime-docs#使用規範與聲明)。
+即時行情資料來源為臺灣證券交易所、臺灣期貨交易所及財團法人中華民國證券櫃檯買賣中心。請您詳閱相關使用[規範與聲明](https://github.com/fortuna-intelligence/fugle-realtime-docs#Statement-中文使用規範與聲明)。
 
-* [Price](https://github.com/fortuna-intelligence/fugle-realtime-docs#price)
-* [Resources](https://github.com/fortuna-intelligence/fugle-realtime-docs#resources)
-* [Parameters](https://github.com/fortuna-intelligence/fugle-realtime-docs#parameters)
-* [Libraries](https://github.com/fortuna-intelligence/fugle-realtime-docs#libraries)
-* [More Information](https://github.com/fortuna-intelligence/fugle-realtime-docs#more-Informatio)
-* [Contact Fugle](https://github.com/fortuna-intelligence/fugle-realtime-docs#contact-Fugle)
-* [Statement](https://github.com/fortuna-intelligence/fugle-realtime-docs#Statement)
+* [Price](#price)
+* [Resources](#resources)
+* [Parameters](#parameters)
+* [Libraries](#libraries)
+* [More Information](#more-Informatio)
+* [Contact Fugle](#contact-Fugle)
+* [Statement](#Statement)
 
 
 
@@ -71,7 +71,7 @@ The following table gives an overview of how the API functions generally behave.
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
-|  `error` | error object |  - |
+|  `error` | [error object](error-object) |  - |
 
 #### error object
 | Name | Type | Description |
