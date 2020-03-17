@@ -17,7 +17,7 @@ https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 
 ### Example of websocket
 ```
-wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
+wss://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 ```
 
 ### Example of response
