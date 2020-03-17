@@ -71,7 +71,7 @@ The following table gives an overview of how the API functions generally behave.
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
-|  `error` | [error object](error-object) |  - |
+|  `error` | [error object](#error-object) |  - |
 
 #### error object
 | Name | Type | Description |

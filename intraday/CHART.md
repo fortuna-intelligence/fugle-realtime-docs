@@ -74,7 +74,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 #### chart object
 | Name | Type | Description |
 |:--|:--|:--|
-|  `dateTime` | price object | - |
+|  `dateTimeKey` | [price object](#price-object) | - |
 
 
 #### price object
