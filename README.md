@@ -4,7 +4,6 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 即時行情資料來源為臺灣證券交易所、臺灣期貨交易所及財團法人中華民國證券櫃檯買賣中心。請您詳閱相關使用[規範與聲明](https://github.com/fortuna-intelligence/fugle-realtime-docs#Statement-中文使用規範與聲明)。
 
 * [Price](#price)
-* [Parameters](#parameters)
 * [Libraries](#libraries)
 * [More Information](#more-Informatio)
 * [Contact Fugle](#contact-Fugle)
@@ -22,8 +21,8 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 | language | github  |
 |:---|:---|
 | Python | [fugle-realtime-py](https://github.com/fortuna-intelligence/fugle-realtime-py)  |
+| Python | [fugle-realtime-py](https://github.com/fortuna-intelligence/fugle-realtime-py)  |
 | JavaScript | [fugle-api-client](https://github.com/fortuna-intelligence/fugle-api-client)  |
-
 
 
 ## More Information
@@ -31,12 +30,10 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 * [Realtime Status](https://developer.fugle.tw/realtime/status)
 
 
-
 ## Contact Fugle
 * [Discord](https://discordapp.com/channels/601582504129855503/601583272555970560)
-* [Contact Form](https://www.fugle.tw/contact)
+* [Form](https://www.fugle.tw/contact)
 * [service@fugle.tw](mailto:service@fugle.tw)
-
 
 
 ## Statement 中文使用規範與聲明
