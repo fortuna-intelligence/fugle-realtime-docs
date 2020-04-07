@@ -28,9 +28,9 @@ The following table gives an overview of how the API functions generally behave.
 | `401` | The apiToken parameter is required or apiToken is unauthorized |
 | `404` | Resource Not Found |
 
-### Error Responses
+## Error Responses
 
-#### example
+### example
 ```json
 {
   "apiVersion": "0.0.0",
@@ -41,13 +41,13 @@ The following table gives an overview of how the API functions generally behave.
 }
 ```
 
-#### schema
+### schema
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `error` | [error object](#error-object) |  - |
 
-#### error object
+### error object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `code` | integer |  error code |

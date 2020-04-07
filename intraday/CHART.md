@@ -10,17 +10,19 @@ GET /intraday/chart
 curl -X GET "https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
-### Example of request url
+## Example
+
+### request url
 ```
 https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 ```
 
-### Example of websocket
+### websocket
 ```
 wss://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 ```
 
-### Example of response
+### response
 ```json
 {
   "apiVersion": "0.0.0",
@@ -47,20 +49,20 @@ wss://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 }
 ```
 
-### Schema
+## Schema
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `data` | [data object](#data-object) |  - |
 
-#### data object
+### data object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `info` | [info object](#info-object) | - |
 |  `chart` | [chart object](#chart-object) | -  |
 
 
-#### info object
+### info object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `lastUpdatedAt` | ISO 8601 | 本筆資料最後更新時間 |
@@ -71,7 +73,7 @@ wss://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 |  `timeZone` | string | 股票所屬時區 |
 
 
-#### chart object
+### chart object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `dateTimeKey` | [price object](#price-object) | - |

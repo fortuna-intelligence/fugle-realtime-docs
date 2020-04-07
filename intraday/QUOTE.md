@@ -10,17 +10,19 @@ GET /intraday/quote
 curl -X GET "https://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
-### Example of request url
+## Example
+
+### request url
 ```
 https://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ```
 
-### Example of websocket
+### websocket
 ```
 wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ```
 
-### Example of response
+### response
 ```json
 {
   "apiVersion": "0.0.0",
@@ -94,20 +96,20 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 }
 ```
 
-### Schema
+## Schema
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `data` | [data object](#data-object) |  - |
 
-#### data object
+### data object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `info` | [info object](#info-object) | - |
 |  `quote` | [quote object](#quote-object) | -  |
 
 
-#### info object
+### info object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `lastUpdatedAt` | ISO 8601 | 本筆資料最後更新時間 |
@@ -118,7 +120,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `timeZone` | string | 股票所屬時區 |
 
 
-#### quote object
+### quote object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `isCurbing` | boolean | 最近一次更新是否為瞬間價格穩定措施 |
@@ -136,7 +138,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `priceOpen` | [price object](#price-object) |  當日之開盤價，開盤定義：當天第一筆成交時才開盤<br/>當日第一筆成交時間 |
 
 
-#### total object
+### total object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆成交時間  |
@@ -146,7 +148,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `volume` | number |  總成交量 |
 
 
-#### trial object
+### trial object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆試撮時間  |
@@ -155,7 +157,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `volume` | number |  最新一筆試撮成交量 |
 
 
-#### trade object
+### trade object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆成交時間  |
@@ -165,7 +167,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `serial` | number |  最新一筆成交之序號 |
 
 
-#### order object
+### order object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `at` | ISO 8601 | 最新一筆最佳五檔更新時間  |

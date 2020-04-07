@@ -10,17 +10,19 @@ GET /intraday/meta
 curl -X GET "https://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
-### Example of request url
+## Example
+
+### request url
 ```
 https://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 ```
 
-### Example of websocket
+### websocket
 ```
 wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 ```
 
-### Example of response
+### response
 ```json
 {
   "apiVersion": "0.0.0",
@@ -55,20 +57,19 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 }
 ```
 
-### Schema
+## Schema
 | Name | Type | Description |
 |:--|:--|:--|
 |  `apiVersion` | string |  api version |
 |  `data` | [data object](#data-object) |  - |
 
-#### data object
+### data object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `info` | [info object](#info-object) | - |
 |  `meta` | [meta object](#meta-object) | -  |
 
-
-#### info object
+### info object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `lastUpdatedAt` | ISO 8601 | 本筆資料最後更新時間 |
@@ -78,8 +79,7 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 |  `countryCode` | string | 股票所屬國家ISO2代碼 |
 |  `timeZone` | string | 股票所屬時區 |
 
-
-#### meta object
+### meta object
 | Name | Type | Description |
 |:--|:--|:--|
 |  `isIndex` | boolean |  是否為指數 |
