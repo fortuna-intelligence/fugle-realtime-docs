@@ -7,9 +7,10 @@
 |  [chart](./intraday/CHART.md) | `/intraday/chart` |  個股/指數 線圖時所需的各項即時資訊 |
 |  [quote](./intraday/QUOTE.md) |  `/intraday/quote` | 取得 個股/指數 逐筆交易金額、狀態、統計資訊 |
 |  [meta](./intraday/META.md) |  `/intraday/meta` | 取得 個股/指數 當日基本資訊 |
+|  [dealts](./intraday/DEALTS.md) |  `/intraday/dealts` | 取得個股當日所有成交資訊 |
 
-## Parameters
-| Parameter | Type | Required | Description |
+## Required Parameters
+| Name | Type | Required | Description |
 |:--|:--|:--|:--|
 |  `symbolId` | string | yes | 個股、指數識別代碼 |
 |  `apiToken` | string | yes | personal api token |

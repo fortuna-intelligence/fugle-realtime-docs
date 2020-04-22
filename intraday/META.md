@@ -22,6 +22,12 @@ https://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 ```
 
+### parameters
+| Name | Type | Required | Description |
+|:--|:--|:--|:--|
+|  `symbolId` | string | yes | 個股、指數識別代碼 |
+|  `apiToken` | string | yes | personal api token |
+
 ### response
 ```json
 {
