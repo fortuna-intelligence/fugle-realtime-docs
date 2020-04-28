@@ -30,7 +30,7 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 
 
 ## Contact Fugle
-* [Discord](https://discordapp.com/channels/601582504129855503/601583272555970560)
+* [Telegram](https://t.me/fugle_realtime_api)
 * [Form](https://www.fugle.tw/contact)
 * [service@fugle.tw](mailto:service@fugle.tw)
 
