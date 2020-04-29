@@ -98,8 +98,8 @@ https://api.fugle.tw/realtime/v0/intraday/dealts?symbolId=2884&apiToken=demo&lim
 ### dealt object
 | Name | Type | Description |
 |:--|:--|:--|
-|  `at` | ISO 8601 | 此筆成交時間 |
-|  `price` | number | 此筆成交的價格 |
-|  `unit` | number | 此筆成交的張數 |
-|  `volume` | number |  此筆成交的成交量 |
-|  `serial` | number |  此筆成交之序號 |
+|  `at` | ISO 8601 | 此筆交易的成交時間 |
+|  `price` | number | 此筆交易的成交價格 |
+|  `unit` | number | 此筆交易的成交張數 (上市、上櫃股票) |
+|  `volume` | number |  此筆交易的成交股數 (興櫃股票) |
+|  `serial` | number |  此筆交易的序號 |
