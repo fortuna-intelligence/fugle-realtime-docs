@@ -25,8 +25,9 @@ The following table gives an overview of how the API functions generally behave.
 | Request values | Description |
 |:--|:--|
 | `200` | Response Success |
-| `400` | General purpose error, ex: <br/>  - symbolId invalid <br/> - quota exceeded |
-| `401` | The apiToken parameter is required or apiToken is unauthorized |
+| `400` | General purpose error, ex: <br/>  - invalid parameters <br/> - missing required parameters |
+| `401` | Unauthorized |
+| `403` | Rate limit or quota exceeded |
 | `404` | Resource Not Found |
 
 ## Error Responses
