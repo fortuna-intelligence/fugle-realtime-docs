@@ -27,6 +27,7 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |:--|:--|:--|:--|
 |  `symbolId` | string | yes | 個股、指數識別代碼 |
 |  `apiToken` | string | yes | personal api token |
+|  `oddLot` | boolean | no | 設置 `true` 回傳零股行情。預設值：`false` |
 
 ### response
 ```json
