@@ -44,6 +44,8 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
     },
     "quote": {
       "isCurbing": false,
+      "isCurbingRise": false,
+      "isCurbingFall": false,
       "isTrial": false,
       "isOpenDelayed": false,
       "isCloseDelayed": false,
@@ -131,6 +133,8 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 | Name | Type | Description |
 |:--|:--|:--|
 |  `isCurbing` | boolean | 最近一次更新是否為瞬間價格穩定措施 |
+|  `isCurbingRise` | boolean | 最近一次更新是否為暫緩撮合且瞬間趨漲 |
+|  `isCurbingFall` | boolean | 最近一次更新是否為暫緩撮合且瞬間趨跌 |
 |  `isTrial` | boolean |  最近一次更新是否為試算 |
 |  `isOpenDelayed` | boolean | 當日是否曾發生延後開盤 |
 |  `isCloseDelayed` | boolean | 當日是否曾發生延後收盤 |
