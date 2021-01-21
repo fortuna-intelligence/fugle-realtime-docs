@@ -58,7 +58,8 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
       "isTerminated": false,
       "isSuspended": false,
       "isWarrant": false,
-      "typeZhTw": "一般股票"
+      "typeZhTw": "一般股票",
+      "abnormal": "正常"
     }
   }
 }
@@ -105,3 +106,4 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 |  `isSuspended` | boolean | 今日是否暫停買賣 |
 |  `isWarrant` | boolean | 是否為權證 |
 |  `typeZhTw` | string | 股票類別 |
+|  `abnormal` | string | 警示或處置股標示 (正常、注意、處置、注意及處置、再次處置、注意及再次處置、彈性處置、注意及彈性處置) |
