@@ -25,8 +25,8 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 | JavaScript | [fugle-api-client](https://github.com/fortuna-intelligence/fugle-api-client)  |
 
 ## More Information
-* [Index ID List](https://developer.fugle.tw/realtime/symbolIdList)
-* [Realtime Status](https://developer.fugle.tw/realtime/status)
+* [Index ID List](https://developer.fugle.tw/document/indexIdList)
+* [Realtime Status](https://developer.fugle.tw/document/status)
 
 
 ## Contact Fugle
