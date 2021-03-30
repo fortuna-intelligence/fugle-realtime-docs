@@ -7,14 +7,14 @@ GET /intraday/dealts
 ```
 
 ```
-curl -X GET "https://api.fugle.tw/realtime/v0/intraday/dealts?symbolId=2884&apiToken=demo" -H "accept: */*"
+curl -X GET "https://api.fugle.tw/realtime/v0.2/intraday/dealts?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
 ## Example
 
 ### request url
 ```
-https://api.fugle.tw/realtime/v0/intraday/dealts?symbolId=2884&apiToken=demo&limit=5
+https://api.fugle.tw/realtime/v0.2/intraday/dealts?symbolId=2884&apiToken=demo&limit=5
 ```
 
 ### parameters
@@ -29,45 +29,45 @@ https://api.fugle.tw/realtime/v0/intraday/dealts?symbolId=2884&apiToken=demo&lim
 ### response
 ```json
 {
-  "apiVersion": "0.0.0",
+  "apiVersion": "0.2.0",
   "data": {
     "info": {
       "countryCode": "TW",
       "timeZone": "Asia/Taipei",
-      "date": "2020-04-20",
+      "date": "2021-03-30",
       "mode": "twse-sem",
       "symbolId": "2884"
     },
     "dealts": [
       {
-        "at": "2020-04-20T05:30:00.000Z",
+        "at": "2021-03-30T13:30:00.000+08:00",
         "price": 26.2,
-        "unit": 1950,
-        "serial": 4450756
+        "unit": 2766,
+        "serial": 6333245
       },
       {
-        "at": "2020-04-20T05:24:59.754Z",
+        "at": "2021-03-30T13:24:59.938+08:00",
         "price": 26.15,
-        "unit": 5,
-        "serial": 4427494
-      },
-      {
-        "at": "2020-04-20T05:24:55.345Z",
-        "price": 26.1,
         "unit": 3,
-        "serial": 4426051
+        "serial": 6302465
       },
       {
-        "at": "2020-04-20T05:24:55.295Z",
-        "price": 26.1,
+        "at": "2021-03-30T13:24:59.938+08:00",
+        "price": 26.15,
         "unit": 3,
-        "serial": 4425977
+        "serial": 6302464
       },
       {
-        "at": "2020-04-20T05:24:52.250Z",
-        "price": 26.1,
-        "unit": 15,
-        "serial": 4424733
+        "at": "2021-03-30T13:24:59.853+08:00",
+        "price": 26.15,
+        "unit": 3,
+        "serial": 6302325
+      },
+      {
+        "at": "2021-03-30T13:24:59.755+08:00",
+        "price": 26.15,
+        "unit": 3,
+        "serial": 6302171
       }
     ]
   }

@@ -7,19 +7,19 @@ GET /intraday/chart
 ```
 
 ```
-curl -X GET "https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo" -H "accept: */*"
+curl -X GET "https://api.fugle.tw/realtime/v0.2/intraday/chart?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
 ## Example
 
 ### request url
 ```
-https://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
+https://api.fugle.tw/realtime/v0.2/intraday/chart?symbolId=2884&apiToken=demo
 ```
 
 ### websocket
 ```
-wss://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
+wss://api.fugle.tw/realtime/v0.2/intraday/chart?symbolId=2884&apiToken=demo
 ```
 
 ### parameters
@@ -32,25 +32,25 @@ wss://api.fugle.tw/realtime/v0/intraday/chart?symbolId=2884&apiToken=demo
 ### response
 ```json
 {
-  "apiVersion": "0.0.0",
+  "apiVersion": "0.2.0",
   "data": {
     "info": {
-      "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
-      "date": "2018-07-11",
+      "date": "2021-03-30",
       "mode": "twse-sem",
-      "symbolId": "2330",
+      "symbolId": "2884",
       "countryCode": "TW",
-      "timeZone": "Asia/Taipei"
+      "timeZone": "Asia/Taipei",
+      "lastUpdatedAt": "2021-03-30T13:30:00.000+08:00"
     },
     "chart": {
-      "2018-07-11T05:30:00.000Z": {
-        "open": 102.12,
-        "high": 102.15,
-        "low": 102.02,
-        "close": 102.12,
-        "unit": 2493,
-        "volume": 2493000
-      },
+      "2021-03-30T13:30:00.000+08:00": {
+        "open": 26.2,
+        "high": 26.2,
+        "low": 26.2,
+        "close": 26.2,
+        "volume": 2766000,
+        "unit": 2766
+      }
     }
   }
 }
