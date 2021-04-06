@@ -7,19 +7,19 @@ GET /intraday/meta
 ```
 
 ```
-curl -X GET "https://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo" -H "accept: */*"
+curl -X GET "https://api.fugle.tw/realtime/v0.2/intraday/meta?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
 ## Example
 
 ### request url
 ```
-https://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
+https://api.fugle.tw/realtime/v0.2/intraday/meta?symbolId=2884&apiToken=demo
 ```
 
 ### websocket
 ```
-wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
+wss://api.fugle.tw/realtime/v0.2/intraday/meta?symbolId=2884&apiToken=demo
 ```
 
 ### parameters
@@ -32,23 +32,23 @@ wss://api.fugle.tw/realtime/v0/intraday/meta?symbolId=2884&apiToken=demo
 ### response
 ```json
 {
-  "apiVersion": "0.0.0",
+  "apiVersion": "0.2.0",
   "data": {
     "info": {
-      "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
-      "date": "2018-07-11",
+      "date": "2021-03-30",
       "mode": "twse-sem",
-      "symbolId": "2330",
+      "symbolId": "2884",
       "countryCode": "TW",
-      "timeZone": "Asia/Taipei"
+      "timeZone": "Asia/Taipei",
+      "lastUpdatedAt": "2021-03-30T13:30:00.000+08:00"
     },
     "meta": {
       "isIndex": false,
-      "nameZhTw": "台積電",
-      "industryZhTw": "半導體業",
-      "priceReference": 222,
-      "priceHighLimit": 244,
-      "priceLowLimit": 200,
+      "nameZhTw": "玉山金",
+      "industryZhTw": "金融保險",
+      "priceReference": 26.2,
+      "priceHighLimit": 28.8,
+      "priceLowLimit": 23.6,
       "canDayBuySell": true,
       "canDaySellBuy": true,
       "canShortMargin": true,

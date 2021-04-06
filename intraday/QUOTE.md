@@ -7,19 +7,19 @@ GET /intraday/quote
 ```
 
 ```
-curl -X GET "https://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo" -H "accept: */*"
+curl -X GET "https://api.fugle.tw/realtime/v0.2/intraday/quote?symbolId=2884&apiToken=demo" -H "accept: */*"
 ```
 
 ## Example
 
 ### request url
 ```
-https://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
+https://api.fugle.tw/realtime/v0.2/intraday/quote?symbolId=2884&apiToken=demo
 ```
 
 ### websocket
 ```
-wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
+wss://api.fugle.tw/realtime/v0.2/intraday/quote?symbolId=2884&apiToken=demo
 ```
 
 ### parameters
@@ -32,15 +32,15 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 ### response
 ```json
 {
-  "apiVersion": "0.0.0",
+  "apiVersion": "0.2.0",
   "data": {
     "info": {
-      "lastUpdatedAt": "2018-07-10T23:33:02.690Z",
-      "date": "2018-07-11",
+      "date": "2021-03-30",
       "mode": "twse-sem",
-      "symbolId": "2330",
-      "countryCode": "TW ",
-      "timeZone": "Asia/Taipei"
+      "symbolId": "2884",
+      "countryCode": "TW",
+      "timeZone": "Asia/Taipei",
+      "lastUpdatedAt": "2021-03-30T16:32:44.848+08:00"
     },
     "quote": {
       "isCurbing": false,
@@ -49,57 +49,52 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
       "isTrial": false,
       "isOpenDelayed": false,
       "isCloseDelayed": false,
-      "isHalting": false,
-      "isClosed": false,
+      "isClosed": true,
       "total": {
-        "at": "2018-07-11T05:30:00.000Z",
-        "order": -1,
-        "price": -1,
-        "unit": 19816,
-        "volume": 19816000
-      },
-      "trial": {
-        "at": "2018-07-11T05:29:58.269Z",
-        "price": 220,
-        "unit": 4304,
-        "volume": 4304000
+        "at": "2021-03-30T13:30:00.000+08:00",
+        "unit": 25421,
+        "volume": 25421000
       },
       "trade": {
-        "at": "2018-07-11T05:30:00.000Z",
-        "price": 220,
-        "unit": 4304,
-        "volume": 4304000,
-        "serial": 919386
+        "at": "2021-03-30T13:30:00.000+08:00",
+        "price": 26.2,
+        "unit": 2766,
+        "volume": 2766000,
+        "serial": 6333245
       },
       "order": {
-        "at": "2018-07-11T05:30:00.000Z",
+        "at": "2021-03-30T13:30:00.000+08:00",
         "bestBids": [
-            {
-              "price": 217.5,
-              "unit": 734,
-              "volume": 734000
-            }
+          {
+            "price": 26.15,
+            "unit": 193,
+            "volume": 193000
+          }
         ],
         "bestAsks": [
           {
-            "price": 220,
-            "unit": 411,
-            "volume": 411000
+            "price": 26.2,
+            "unit": 3253,
+            "volume": 3253000
           }
         ]
       },
       "priceHigh": {
-        "price": 220,
-        "at": "2018-07-11T04:16:46.286Z"
+        "price": 26.25,
+        "at": "2021-03-30T09:00:16.280+08:00"
       },
       "priceLow": {
-        "price": 218,
-        "at": "2018-07-11T04:17:31.419Z"
+        "price": 26.05,
+        "at": "2021-03-30T09:48:51.546+08:00"
       },
       "priceOpen": {
-        "price": 220,
-        "at": "2018-07-11T01:00:01.284Z"
-      }
+        "price": 26.2,
+        "at": "2021-03-30T09:00:11.082+08:00"
+      },
+      "change": 0,
+      "changePercent": 0,
+      "amplitude": 0.00190839694656,
+      "priceLimit": "NORMAL"
     }
   }
 }
@@ -140,13 +135,16 @@ wss://api.fugle.tw/realtime/v0/intraday/quote?symbolId=2884&apiToken=demo
 |  `isCloseDelayed` | boolean | 當日是否曾發生延後收盤 |
 |  `isHalting` | boolean | 最近一次更新是否為暫停交易 |
 |  `isClosed` | boolean | 當日是否為已收盤 |
+|  `change` | number | 當日股價之漲跌 |
+|  `changePercent` | number | 當日股價之漲跌幅 |
+|  `amplitude` | number | 當日股價之振幅 |
 |  `total` | [total object](#total-object) |   |
 |  `trial` | [trial object](#trial-object) |   |
 |  `trade` | [trade object](#trade-object) |   |
 |  `order` | [order object](#order-object) |   |
 |  `priceHigh` | [price object](#price-object) | 當日之最高價<br/>第一次到達當日最高價之時間 |
-|  `priceLow` | [price object](#price-object) |  當日之最低價<br/>第一次到達當日最低價之時間 |
-|  `priceOpen` | [price object](#price-object) |  當日之開盤價，開盤定義：當天第一筆成交時才開盤<br/>當日第一筆成交時間 |
+|  `priceLow` | [price object](#price-object) | 當日之最低價<br/>第一次到達當日最低價之時間 |
+|  `priceOpen` | [price object](#price-object) | 當日之開盤價，開盤定義：當天第一筆成交時才開盤<br/>當日第一筆成交時間 |
 
 
 ### total object
