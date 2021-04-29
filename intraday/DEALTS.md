@@ -90,7 +90,7 @@ https://api.fugle.tw/realtime/v0.2/intraday/dealts?symbolId=2884&apiToken=demo&l
 | Name | Type | Description |
 |:--|:--|:--|
 |  `date` | string | 本筆資料所屬日期 |
-|  `mode` | string | 交易所-交易市場 |
+|  `mode` | string | 市場別 |
 |  `symbolId` | string | 股票代號 |
 |  `countryCode` | string | 股票所屬國家ISO2代碼 |
 |  `timeZone` | string | 股票所屬時區 |

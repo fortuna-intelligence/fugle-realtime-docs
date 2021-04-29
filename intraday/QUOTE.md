@@ -118,7 +118,7 @@ wss://api.fugle.tw/realtime/v0.2/intraday/quote?symbolId=2884&apiToken=demo
 |:--|:--|:--|
 |  `lastUpdatedAt` | ISO 8601 | 本筆資料最後更新時間 |
 |  `date` | string | 本筆資料所屬日期 |
-|  `mode` | string | 交易所-交易市場 |
+|  `mode` | string | 市場別 |
 |  `symbolId` | string | 股票代號 |
 |  `countryCode` | string | 股票所屬國家ISO2代碼 |
 |  `timeZone` | string | 股票所屬時區 |

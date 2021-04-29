@@ -15,6 +15,16 @@
 |  `symbolId` | string | yes | 個股、指數識別代碼 |
 |  `apiToken` | string | yes | personal api token |
 
+## Mode List
+
+| Mode | Description |
+|:--|:--|
+| `twse-sem` | 上市 |
+| `tpex-otc` | 上櫃 |
+| `tpex-emg` | 興櫃 |
+| `tpex-sem-oddlot` | 上市零股 |
+| `tpex-otc-oddlot` | 上櫃零股 |
+
 ## Status codes
 The following table gives an overview of how the API functions generally behave.
 
@@ -29,6 +39,7 @@ The following table gives an overview of how the API functions generally behave.
 | `401` | Unauthorized |
 | `403` | Rate limit or quota exceeded |
 | `404` | Resource Not Found |
+
 
 ## Error Responses
 
