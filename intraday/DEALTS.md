@@ -22,8 +22,9 @@ https://api.fugle.tw/realtime/v0/intraday/dealts?symbolId=2884&apiToken=demo&lim
 |:--|:--|:--|:--|
 |  `symbolId` | string | yes | 個股、指數識別代碼 |
 |  `apiToken` | string | yes | realtime api token |
-|  `limit` | number | no | 限制最多回傳的資料筆數。預設值：50 |
-|  `offset` | number | no | 指定從第幾筆後開始回傳。預設值：0 |
+|  `limit` | number | no | 限制最多回傳的資料筆數。預設值：`50` |
+|  `offset` | number | no | 指定從第幾筆後開始回傳。預設值：`0` |
+|  `oddLot` | boolean | no | 設置 `true` 回傳零股行情。預設值：`false` |
 
 ### response
 ```json
