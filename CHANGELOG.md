@@ -1,4 +1,10 @@
-## 0.2.0 - 2021-04-06
+## v0.2 - 2021-06-04
+
+* 修正版號並與 realtime api 版號同步
+* 更新 changelog.md 文件
+* 原 v.0 api 服務將終止於 2021-06-26
+
+## v0.2 - 2021-04-06
 
 ### Meta
 
@@ -39,8 +45,5 @@
 * Mode `tpex-otc` 移除以下 `symbolId`：
   - `TPEX_OTC_TOTAL_1`、`TPEX_OTC_TOTAL_2`、`TPEX_OTC_TOTAL_3`、`TPEX_OTC_TOTAL_4`、`TPEX_OTC_TOTAL_5`
 
-## 0.1.1 - 2020-10-26
-* add oddLot parameter
-
-## 0.1.0 - 2020-03-16
+## v.0 - 2020-03-16
 * initial release.
