@@ -4,8 +4,6 @@
 * 更新 changelog.md 文件
 * 原 v.0 api 服務將終止於 2021-06-26
 
-## v0.2 - 2021-04-06
-
 合併 `TWSE_SEM_TOTAL_X` 內容到 `TWSE_SEM_INDEX_X` 裡面, `TWSE_SEM_INDEX_X` 可以直接拿到指數的量
 
 ### Meta
