@@ -6,6 +6,8 @@
 
 ## v0.2 - 2021-04-06
 
+合併 `TWSE_SEM_TOTAL_X` 內容到 `TWSE_SEM_INDEX_X` 裡面, `TWSE_SEM_INDEX_X` 可以直接拿到指數的量
+
 ### Meta
 
 * Mode `twse-sem` 移除以下 `symbolId`：
