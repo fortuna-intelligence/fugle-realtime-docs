@@ -1,10 +1,9 @@
 ## v0.2 - 2021-06-04
 
 * 修正版號並與 realtime api 版號同步
-* 更新 changelog.md 文件
-* 原 v.0 api 服務將終止於 2021-06-26
-
-合併 `TWSE_SEM_TOTAL_X` 內容到 `TWSE_SEM_INDEX_X` 裡面, `TWSE_SEM_INDEX_X` 可以直接拿到指數的量
+* 更新 CHANGELOG.md 文件
+* 原 v0 api 於 2021-06-26 終止服務
+* 合併 `TWSE_SEM_TOTAL_X` 內容到 `TWSE_SEM_INDEX_X` 裡面, `TWSE_SEM_INDEX_X` 可以直接拿到指數的量
 
 ### Meta
 
@@ -45,5 +44,5 @@
 * Mode `tpex-otc` 移除以下 `symbolId`：
   - `TPEX_OTC_TOTAL_1`、`TPEX_OTC_TOTAL_2`、`TPEX_OTC_TOTAL_3`、`TPEX_OTC_TOTAL_4`、`TPEX_OTC_TOTAL_5`
 
-## v.0 - 2020-03-16
+## v0 - 2020-03-16
 * initial release.
