@@ -1,6 +1,6 @@
 # Fugle Realtime API
 
-Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團隊開發提供，詳細文件請參閱[Intraday](./INTRADAY.md)。  
+Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團隊開發提供，詳細文件請參閱[Intraday](./INTRADAY.md)。
 即時行情資料來源為臺灣證券交易所、臺灣期貨交易所及財團法人中華民國證券櫃檯買賣中心。請您詳閱相關使用[規範與聲明](https://github.com/fortuna-intelligence/fugle-realtime-docs#Statement-中文使用規範與聲明)。
 
 * [Price](#price)
@@ -23,6 +23,11 @@ Fugle Realtime API 是由時報資訊與[Fugle](https://www.fugle.tw/) 技術團
 | Python | [fugle-realtime-py](https://github.com/fortuna-intelligence/fugle-realtime-py)  |
 | Python Demo | [fugle-realtime-demo](https://github.com/fortuna-intelligence/fugle-realtime-demo/) |
 | JavaScript | [fugle-api-client](https://github.com/fortuna-intelligence/fugle-api-client)  |
+
+## Community Libraries
+| language | github  |
+|:---|:---|
+| Ruby | [elct9620/fugle-api](https://github.com/elct9620/fugle-api)  |
 
 ## More Information
 * [Index ID List](https://developer.fugle.tw/document/indexIdList)
